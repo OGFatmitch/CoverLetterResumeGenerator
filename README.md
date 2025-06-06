@@ -69,3 +69,44 @@ An intelligent application that generates tailored resumes and cover letters usi
    - Use the copy or download buttons to save your generated documents
 
 ## Project Structure
+CoverLetterGenerator/
+├── frontend/ # Streamlit frontend application
+├── src/ # Backend services and API
+├── requirements.txt # Python dependencies
+├── run.sh # Script to start both servers
+└── .env # Environment variables (not tracked in git)
+
+## Features in Detail
+
+### Resume Tailoring
+- Analyzes job description for key requirements
+- Identifies relevant experience and skills
+- Optimizes bullet points for impact
+- Maintains original format while enhancing content
+
+### Cover Letter Generation
+- Creates engaging, personalized cover letters
+- Aligns experience with job requirements
+- Demonstrates cultural fit
+- Uses natural, professional language
+
+### Document Processing
+- Supports PDF and DOCX formats
+- Preserves original formatting
+- Handles complex layouts
+- Maintains document structure
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- OpenAI for their GPT models
+- GitHub for their AI models
+- Streamlit for the frontend framework
+- FastAPI for the backend framework
